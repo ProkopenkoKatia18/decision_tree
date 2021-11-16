@@ -48,6 +48,10 @@ const Survey = () => {
         }
     }
 
+    const handleRestartClick = () => {
+        window.location.reload();
+    }
+
     return (
         <>
             {!resultAnswer ?
@@ -92,6 +96,7 @@ const Survey = () => {
                         )}</ul>
                     </div>
                     }
+                    <button className="questionnaire-start-btn" onClick={handleRestartClick}>Restart</button>
                 </div>
             }
         </>

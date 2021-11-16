@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.answers-list::-webkit-scrollbar-track
+{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #B7AF41;
+}
+
+.answers-list::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #B7AF41;
+}
+
+.answers-list::-webkit-scrollbar-thumb
+{
+  background-color: #000000;
+  border-radius: 10px;
+}
