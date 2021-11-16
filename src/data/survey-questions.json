@@ -1,0 +1,335 @@
+[
+  {
+    "restKind": {
+      "question": "Какой вид отдыха вы любите?",
+      "parentAnswer": null,
+      "answers": {
+        "left": "Активный",
+        "middle": "Пасивный",
+        "right": "Смешанный"
+      }
+    },
+    "wherePlace": {
+      "question": "Где будет место отдыха?",
+      "parentAnswer": "Активный",
+      "answers": {
+        "left": "На улице",
+        "middle": "Дома",
+        "right": "Город"
+      }
+    },
+    "extremeRest": {
+      "question": "Предпочитаете ли экстримальный отдых?",
+      "parentAnswer": "На улице",
+      "answers": {
+        "left": "Да, экстримальный",
+        "right": "Нет, не экстримальный"
+      }
+    },
+    "extremeYesResult": {
+      "question": "Прыжок с моста. Катание на гидроскутерах. Катание на мотоциклах. Катания на водных лыжах.",
+      "parentAnswer": "Да, экстримальный"
+    },
+    "extremeNoResult": {
+      "question": "Катания на лисапете. Поход в басейн. Ролики.",
+      "parentAnswer": "Нет, не экстримальный"
+    },
+    "inviteFriends": {
+      "question": "Хотите ли пригласить друзей?",
+      "parentAnswer": "Дома",
+      "answers": {
+        "left": "Да, всех",
+        "middle": "Пригласить не всех друзей",
+        "right": "Нет, не приглашать"
+      }
+    },
+    "whoFriendsWith": {
+      "question": "Кого хотите пригласить?",
+      "parentAnswer": "Пригласить не всех друзей",
+      "answers": {
+        "left": "Машу и Дашу",
+        "middle": "Настю и Сашу",
+        "right": "Нику и Таню"
+      }
+    },
+    "MashaAndDariaResult": {
+      "question": "Пижамная вечеринка. Настолки.",
+      "parentAnswer": "Машу и Дашу"
+    },
+    "NastyaAndSashaResult": {
+      "question": "Пижамная вечеринка. Настолки. Битва подушками. Прятки. Маникюр.",
+      "parentAnswer": "Настю и Сашу"
+    },
+    "NikaAndTanyaResult": {
+      "question": "Пижамная вечеринка. Настолки. Битва подушками. Прятки. Бьюти вечер.",
+      "parentAnswer": "Нику и Таню"
+    },
+    "friendsYesResult": {
+      "question": "Пижамная вечеринка. Настолки. Битва подушками. Прятки.",
+      "parentAnswer": "Да, всех"
+    },
+    "friendsNoResult": {
+      "question": "Йога. Фитнес.",
+      "parentAnswer": "Нет, не приглашать"
+    },
+    "townChoice": {
+      "question": "Достаточно ли ресурсов?",
+      "parentAnswer": "Город",
+      "answers": {
+        "left": "Да, достаточно",
+        "right": "Нет, не достаточно"
+      }
+    },
+    "townYesAnswer": {
+      "question": "В какой город хотите поехать?",
+      "parentAnswer": "Да, достаточно",
+      "answers": {
+        "left": "Харьков",
+        "middle": "Одесса",
+        "right": "Львов"
+      }
+    },
+    "kharkovResult": {
+      "question": "Самая незабываемая поездка для Вас будет город Харьков. Обязательно сходите на колесо обозрения.",
+      "parentAnswer": "Харьков"
+    },
+    "odessaResult": {
+      "question": "Самая незабываемая поездка для Вас будет город Одесса. Не обойдите стороной Одесский театр оперы и балета.",
+      "parentAnswer": "Одесса"
+    },
+    "lvivResult": {
+      "question": "Самая незабываемая поездка для Вас будет город Львов. Вам точно понравится Палац Потоцких.",
+      "parentAnswer": "Львов"
+    },
+    "preparation": {
+      "question": "Нужны ли для этого приготовления",
+      "parentAnswer": "Пасивный",
+      "answers": {
+        "left": "Нет, приготовления не нужны",
+        "right": "Да, приготовления нужны"
+      }
+    },
+    "preparationNoResult": {
+      "question": "Рисовать. Читать книгу. Слушать музыку.",
+      "parentAnswer": "Нет, приготовления не нужны"
+    },
+    "preparationQuestions": {
+      "question": "Есть ли средства не это?",
+      "parentAnswer": "Да, приготовления нужны",
+      "answers": {
+        "left": "Да, есть",
+        "right": "Нету"
+      }
+    },
+    "preparationChoices": {
+      "question": "Какого рода приготовления?",
+      "parentAnswer": "Да, есть",
+      "answers": {
+        "left": "Еда",
+        "middle": "Выбор фильма",
+        "right": "Пренадлежности"
+      }
+    },
+    "foodChoices": {
+      "question": "Есть ли все готовое дома?",
+      "parentAnswer": "Еда",
+      "answers": {
+        "left": "Да, нужно приготовить",
+        "right": "Нет, нужно купить"
+      }
+    },
+    "yesFoodChoiceResult": {
+      "question": "Семейное приготовление сладостей. Просмотр фильма с едой.",
+      "parentAnswer": "Да, нужно приготовить"
+    },
+    "noFoodChoice": {
+      "question": "Что бы вы хотели?",
+      "parentAnswer": "Нет, нужно купить",
+      "answers": {
+        "left": "Сладкое",
+        "middle": "Фрукты",
+        "right": "Пицца или суши"
+      }
+    },
+    "noFoodChoiceSweetsResult": {
+      "question": "Просмотр фильма со сладостями. Приготовление сладостей. Сладкая вечеринка.",
+      "parentAnswer": "Сладкое"
+    },
+    "noFoodChoiceFruitResult": {
+      "question": "Просмотр фильма с фруктами. Релакс в ванной с фруктами.",
+      "parentAnswer": "Фрукты"
+    },
+    "noFoodChoicePizzaSushiResult": {
+      "question": "Просмотр фильма с пиццей или сушами. Романтический ужин.",
+      "parentAnswer": "Пицца или суши"
+    },
+    "filmChoice": {
+      "question": "Какого рода фильм?",
+      "parentAnswer": "Выбор фильма",
+      "answers": {
+        "left": "1950-2000",
+        "middle": "2000-2010",
+        "right": "2010-2021"
+      }
+    },
+    "filmLeftChoiceResult": {
+      "question": "Проведите время с интересом посмотрев фильмы: \"Асфальтовые Джунгли\", \"Великолепная восьмерка\", \"Двенадцать стульев\", \"Десять негретят\", \"Доспехи Бога\"",
+      "parentAnswer": "1950-2000"
+    },
+    "filmMiddleChoiceResult": {
+      "question": "Проведите время с интересом посмотрев фильмы: \"Большой куш\", \"Блондинка в законе\", \"Властелин Колец\", \"Безславные ублюдки\", \"Предложение\"",
+      "parentAnswer": "2000-2010"
+    },
+    "filmRightChoiceResult": {
+      "question": "Проведите время с интересом посмотрев фильмы: \"Хоббит\", \"Зеленая книга\", \"История дельфина\", \"Аквамен\", \"Фантастические твари\"",
+      "parentAnswer": "2010-2021"
+    },
+    "equipmentsChoice": {
+      "question": "Заказывать в интернете или купить в магазине или есть дома?",
+      "parentAnswer": "Пренадлежности",
+      "answers": {
+        "left": "Заказывать",
+        "middle": "Купить в магазине",
+        "right": "Есть дома"
+      }
+    },
+    "equipmentRightChoiceResult": {
+      "question": "Читать книгу. Собирать пазлы. Релакс в ванной.",
+      "parentAnswer": "Есть дома"
+    },
+    "equipmentsShopChoice": {
+      "question": "Что нужно в магазине?",
+      "parentAnswer": "Купить в магазине",
+      "answers": {
+        "left": "Бомбочки для ванной",
+        "middle": "Масочки",
+        "right": "Крема или масла"
+      }
+    },
+    "equipmentsShopLeftChoiceResult": {
+      "question": "Релакс в ванной. Романтический вечер.",
+      "parentAnswer": "Бомбочки для ванной"
+    },
+    "equipmentsShopMiddleChoiceResult": {
+      "question": "Бьюти вечер. Масаж лица.",
+      "parentAnswer": "Масочки"
+    },
+    "equipmentsShopRightChoiceResult": {
+      "question": "Общий уход за кожей. Бьюти вечер. Массаж.",
+      "parentAnswer": "Крема или масла"
+    },
+    "equipmentsOrderChoice": {
+      "question": "Что нужно заказывать?",
+      "parentAnswer": "Заказывать",
+      "answers": {
+        "left": "Пазлы",
+        "middle": "Нитки для вязания",
+        "right": "Бисер и канва"
+      }
+    },
+    "equipmentsOrderLeftChoiceResult": {
+      "question": "Собирание пазлов.",
+      "parentAnswer": "Пазлы"
+    },
+    "equipmentsOrderMiddleChoiceResult": {
+      "question": "Вязание или плетение",
+      "parentAnswer": "Нитки для вязания"
+    },
+    "equipmentsOrderRightChoiceResult": {
+      "question": "Вышивание или плетение",
+      "parentAnswer": "Бисер и канва"
+    },
+    "combinedRestVariants": {
+      "question": "Один вид или несколько смешанных?",
+      "parentAnswer": "Смешанный",
+      "answers": {
+        "left": "Да, один вид",
+        "right": "Нет, несколько"
+      }
+    },
+    "onlyOneKind": {
+      "question": "Предпочитаете отдых на суше или на воде?",
+      "parentAnswer": "Да, один вид",
+      "answers": {
+        "left": "На суше",
+        "right": "На воде"
+      }
+    },
+    "withFriends": {
+      "question": "Хотите пригласить друзей?",
+      "parentAnswer": "На суше",
+      "answers": {
+        "left": "Да",
+        "middle": "Не всех друзей",
+        "right": "Нет"
+      }
+    },
+    "whoWithCombined": {
+      "question": "Кого хотите взять с собой?",
+      "parentAnswer": "Не всех друзей",
+      "answers": {
+        "left": "Артема и Катю",
+        "middle": "Андрея и Настю",
+        "right": "Алену и Влада"
+      }
+    },
+    "yesWithFriendsCombinedResult": {
+      "question": "Пикник. Поход в парк. Поход на атракционы.",
+      "parentAnswer": "Да"
+    },
+    "notWithFriendsCombinedResult": {
+      "question": "Прогулка в парке. Прогулка в саду. Прогулка по лесу.",
+      "parentAnswer": "Нет"
+    },
+    "ArtemAndKateResult": {
+      "question": "Пикник. Поход в парк. Поход на атракционы. Настолки. Пейнт-бол.",
+      "parentAnswer": "Артема и Катю"
+    },
+    "AndreyAndNastyaResult": {
+      "question": "Пикник. Поход в парк. Поход на атракционы. Настолки.",
+      "parentAnswer": "Андрея и Настю"
+    },
+    "AlenaAndVladResult": {
+      "question": "Пикник. Поход в парк. Поход на атракционы. Настолки.",
+      "parentAnswer": "Алену и Влада"
+    },
+    "withFriendsWater": {
+      "question": "Хотите пригласить друзей?",
+      "parentAnswer": "На воде",
+      "answers": {
+        "left": "Да, приглашу",
+        "middle": "Только определенных",
+        "right": "Нет, не приглашу"
+      }
+    },
+    "whoWithCombinedWater": {
+      "question": "Кого хотите взять с собой?",
+      "parentAnswer": "Только определенных",
+      "answers": {
+        "left": "Илону и Юру",
+        "middle": "Дениса и Богдана",
+        "right": "Андрея и Артема"
+      }
+    },
+    "yesWithFriendsCombinedWater": {
+      "question": "Пикник. Поход в парк. Поход на атракционы.",
+      "parentAnswer": "Да, приглашу"
+    },
+    "notWithFriendsCombinedWater": {
+      "question": "Прогулка в парке. Прогулка в саду. Прогулка по лесу.",
+      "parentAnswer": "Нет, не приглашу"
+    },
+    "IlonaAndYuraWaterResult": {
+      "question": "Морская прогулка. Поход на пляж.",
+      "parentAnswer": "Илону и Юру"
+    },
+    "DenisAndBogdanResult": {
+      "question": "Романтический ужин на берегу при свечах. Аквапарк.",
+      "parentAnswer": "Дениса и Богдана"
+    },
+    "AndreyAndArtemResult": {
+      "question": "Рыбалка. Прогулка на катере. Аквапарк.",
+      "parentAnswer": "Андрея и Артема"
+    }
+  }
+]
